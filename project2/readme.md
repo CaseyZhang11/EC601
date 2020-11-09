@@ -82,3 +82,27 @@ extracting  emotion trend of tweets of a given time.
 
 Company or researcher can extract the emotion trend of a certain event. For example, user can extract positive emotion from live tweets on a national holiday. User could extract negative emotion from live tweets on a disaster.
 
+# Unit Test
+
+## Project 4: 
+
+### Test for Twitter API.
+
+I put wrong Twitter Credentials. The error code I receive is ‘401’. 
+
+`401 Unauthorized`
+
+A 401 status code means that there was a problem authenticating your request, such as an invalid consumer key or secret.
+I put the wrong Twitter API name. The error is name “” is not defined. 
+
+### Test for Google NLP. 
+
+Test 1: 
+
+Temoraliy stop the service of google NLP account.
+
+The error code is 403. 
+
+403	PERMISSION_DENIED	Client does not have sufficient permission. This can happen because the OAuth token does not have the right scopes, the client doesn't have permission, or the API has not been enabled for the client project.
+
+
