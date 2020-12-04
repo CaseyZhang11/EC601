@@ -39,5 +39,5 @@ jobs:
         TWITTER_ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} 
         TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_TOKEN_SECRET}} 
       run: |
-        export GOOGLE_APPLICATION_CREDENTIALS="$HOME/Users/jiaqizhang/Downloads/
+        export GOOGLE_APPLICATION_CREDENTIALS=""$HOME/secrets/API_Key.json"
         pytest
