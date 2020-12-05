@@ -1,4 +1,4 @@
-#Accessibility Modern Application Design
+# Accessibility Modern Application Design
 
 In this paper, I am going to present how applications design their accessibility for people with visual impairment.
 
